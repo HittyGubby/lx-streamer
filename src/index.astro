@@ -1,0 +1,19 @@
+---
+import AudVisualizer from 'components/AudVisualizer.vue'
+import HlsPlayer from 'components/HlsPlayer.vue'
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Streaming App</title>
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <main class="container mx-auto p-8">
+      <h1 class="text-4xl font-extrabold mb-8">My Streaming App</h1>
+      <AudVisualizer client:load />
+      <HlsPlayer client:load />
+    </main>
+  </body>
+</html>
